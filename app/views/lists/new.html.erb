@@ -1,0 +1,6 @@
+
+<%= simple_form_for(@list) do |f| %>
+  <%= f.input :name %>
+  <%= f.association :movie %>
+  <%= f.button :submit %>
+<% end %>
